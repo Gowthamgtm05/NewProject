@@ -1,15 +1,15 @@
 package org.test;
 
 public class Sample {
-	private void userName() {
-		System.out.println("username");
-		
-	}
 	
-	public static void main(String[] args) {
-		 Sample s = new Sample();
-		 s.userName();
-		
+public static void login() {
+	System.out.println("Login");
+
+		login();
+	}
+	private static void userName() {
+		System.out.println("username");
+		userName();
 	}
 	
 

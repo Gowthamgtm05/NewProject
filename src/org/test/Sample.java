@@ -14,7 +14,15 @@ public class Sample {
 		System.out.println("username");
 		userName();
 	}
+	public void hello() {
+		
+		System.out.println("Helllo");
+	}
+	
+	
 	public static void main(String[] args) {
 		login();
 	}
+	
+	
 }
